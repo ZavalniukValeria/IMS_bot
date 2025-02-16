@@ -11,7 +11,7 @@ from user_settings import get_changes
 
 
 bot = telebot.TeleBot(give_info('token'))
-#memory_numbers.bot = bot
+
 
 @bot.message_handler(commands=['start'])
 def main(msg):

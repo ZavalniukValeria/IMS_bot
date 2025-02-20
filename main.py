@@ -1,13 +1,13 @@
 import telebot
 from telebot import types
-from dictionary import get_definition
-from training import training
-from reading import reversed_reading, without_vowel, half_digits
-from memory_numbers import new_cmd_memo_get
-from associations import get_full_line
-from important import give_info
+from Functions.dictionary import get_definition
+from Functions.training import training
+from Functionsreading import reversed_reading, without_vowel, half_digits
+from Functions.memory_numbers import new_cmd_memo_get
+from Functions.associations import get_full_line
+from Databases.important import give_info
 from Databases.database import create_table, add_user
-from user_settings import get_changes
+from Functions.user_settings import get_changes
 
 
 bot = telebot.TeleBot(give_info('token'))

@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 from Functions.dictionary import get_definition
 from Functions.training import training
-from Functionsreading import reversed_reading, without_vowel, half_digits
+from Functions.reading import reversed_reading, without_vowel, half_digits
 from Functions.memory_numbers import new_cmd_memo_get
 from Functions.associations import get_full_line
 from Databases.important import give_info
